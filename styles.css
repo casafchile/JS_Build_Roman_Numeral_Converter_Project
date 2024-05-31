@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --light: white;
+  --dark: #000000;
+  --grey: #3B3B4F;
+  --dark-grey: #0a0a23;
+  --yellow: #FFB73B;
+  --orange: #bb7712;
+  --pink: #FFADAD;
+  --red: #850000;
+  --blue: #198EEE;
+}
+
+body {
+  background-color: var(--dark-grey);
+  padding: 5%;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+main {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media screen and (max-width: 640px) {
+    main {
+        width: 95%; 
+    }
+}
+
+h1 {
+  text-transform: uppercase;
+  color: var(--light);
+}
+
+.converter-cont {
+  background-color: var(--grey);
+  border: 3px solid var(--light);
+  padding: 1.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.enter-number {
+  color: var(--light);
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+input {
+  background: var(--dark);
+  border: 1px solid var(--light);
+  color: var(--light);
+  font-size: 2rem;
+  padding: .5rem;
+}
+
+input:focus {
+  border: 2px solid var(--blue);
+  outline: var(--blue);
+}
+
+button {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3rem;
+    padding: .7rem;
+    background-color: var(--yellow);
+    border: 2px solid var(--orange);
+}
+
+#output {
+  background-color: var(--pink);
+  font-size: 2rem;
+  color: var(--red);
+}
