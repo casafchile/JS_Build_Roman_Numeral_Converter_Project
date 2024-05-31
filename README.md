@@ -2,7 +2,7 @@ Roman numerals are based on seven symbols and can be written using various combi
 
 ```markdown
 | Roman numerals | Arabic numerals |
-| -------------- | --------------- |
+|:--------------:|:---------------:|
 | M              | 1000            |
 | CM             | 900             |
 | D              | 500             |
@@ -16,6 +16,7 @@ Roman numerals are based on seven symbols and can be written using various combi
 | V              | 5               |
 | IV             | 4               |
 | I              | 1               |
+
 ```
 
           
